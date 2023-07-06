@@ -1,0 +1,30 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 20;
+    width: 100%;
+    height: 60px;
+    padding: 0 20px;
+    transition: background-color 0.3s;
+    z-index: 999;
+  }
+  
+  .transparent {
+    background-color: #101010;
+  }
+  
+  .logo {
+    font-weight: bold;
+  }
+  
+  .navItems {
+    display: flex;
+  }
+  
+  .navItem {
+    margin-right: 5em;
+  }
