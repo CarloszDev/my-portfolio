@@ -19,9 +19,9 @@ const Navbar = () => {
     <nav className={`${styles.navbar} ${navbarTransparent ? styles.transparent : ''}`}>
       <a className={styles.logo}>Carlos Cauan</a>
       <div className={styles.navItems}>
-        <a className={styles.navItem}>Item 1</a>
-        <a className={styles.navItem}>Item 2</a>
-        <a className={styles.navItem}>Item 3</a>
+        <a className={styles.navItem}>Sobre Mim</a>
+        <a className={styles.navItem}>Projetos</a>
+        <a className={styles.navItem}>Contato</a>
       </div>
     </nav>
   );
