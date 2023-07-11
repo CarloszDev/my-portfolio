@@ -27,9 +27,25 @@ body {
   display: flex;
   min-width: 320px;
   min-height: 100vh;
-  background-image: url('./assets/background.jpg');
+  background-image: url('./assets/background2.jpg');
   background-repeat: no-repeat;
   background-size: 90em;
+}
+
+::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: transparent;
 }
 
 h1 {

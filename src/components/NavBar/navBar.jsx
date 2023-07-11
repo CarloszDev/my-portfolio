@@ -17,7 +17,7 @@ const Navbar = () => {
 
   return (
     <nav className={`${styles.navbar} ${navbarTransparent ? styles.transparent : ''}`}>
-      <a className={styles.logo}>Carlos Cauan</a>
+      <h4 className={styles.nameWriter}>Carlos Cauan</h4>
       <div className={styles.navItems}>
         <a className={styles.navItem}>Sobre Mim</a>
         <a className={styles.navItem}>Projetos</a>

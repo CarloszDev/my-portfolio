@@ -12,3 +12,43 @@
   align-items: center;
   align-content: center;
 }
+
+.midContent {
+  display: flex;
+  justify-content: flex-start;
+  /* background-color: red; */
+  margin-top: 4em;
+  width: 80em;
+  height: 30em;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  /* background-color: blue; */
+  justify-content: center;
+  margin-left: 4em;
+}
+
+.textContainer h1 {
+  font-weight: bold;
+  font-size: 5em;
+  color: antiquewhite;
+  text-align: flex-start;
+  margin: 0;
+}
+
+.textContainer h2 {
+  font-size: 2.5em;
+  color: antiquewhite;
+  margin: 0;
+  text-align: flex-start;
+}
+
+.foreground {
+  z-index: -100;
+  position: absolute;
+  opacity: 0.2;
+  margin-left: 2em;
+  overflow: none;
+}
