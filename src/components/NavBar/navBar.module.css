@@ -13,7 +13,7 @@
   }
   
   .transparent {
-    background-color: #141414;
+    background-color: #14141433;
   }
   
   .nameWriter {
@@ -44,4 +44,8 @@
   
   .navItem {
     margin-right: 5em;
+  }
+
+  .nav h4 {
+    font-weight: 600;
   }

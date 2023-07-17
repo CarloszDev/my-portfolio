@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Source Code Pro";
+  src: url("/fonts/SourceCodePro-VariableFont_wght.ttf") format("truetype");
+}
+
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -27,9 +33,11 @@ body {
   display: flex;
   min-width: 320px;
   min-height: 100vh;
-  background-image: url('./assets/background2.jpg');
+  font-family: "Source Code Pro", serif;
+  /* background-image: url('./assets/background2.jpg');
   background-repeat: no-repeat;
-  background-size: 90em;
+  background-size: 90em; */
+  background-color: rgb(19, 19, 19);
 }
 
 ::-webkit-scrollbar {
