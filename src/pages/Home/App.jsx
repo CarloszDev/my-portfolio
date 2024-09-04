@@ -11,7 +11,7 @@ import ParticlesBackground from '../../components/ParticuleBackground/particless
 function App() {
   return (
     <>
-      <ParticlesBackground />
+      {/* <ParticlesBackground /> */}
       <div className='bg-black'>
         <header>
           {/* <NavBar /> */}

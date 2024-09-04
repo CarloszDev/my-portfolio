@@ -14,6 +14,7 @@ export default {
 
             fontFamily : {
               spaceGrotesk: ["Space Grotesk", "sans-serif"],
+              pressStart: ["Press Start 2P", "system-ui"]
             },
 
             backgroundImage: {

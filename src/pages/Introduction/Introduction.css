@@ -1,0 +1,25 @@
+/* Introduction.css */
+@keyframes typewriter {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
+  @keyframes blinkTextCursor {
+    from { border-right-color: rgba(255, 255, 255, 0.75); }
+    to { border-right-color: transparent; }
+  }
+  
+  .typewriter {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid rgba(255, 255, 255, 0.75);
+    animation: typewriter 4s steps(40) 1s 1 normal both,
+               blinkTextCursor 500ms steps(40) infinite normal;
+  }
+  
+  .typewriter.delay-2 {
+    animation: typewriter 4s steps(40) 6s 1 normal both,
+               blinkTextCursor 500ms steps(40) infinite normal;
+  }
+  
