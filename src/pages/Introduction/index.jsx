@@ -2,7 +2,7 @@ import React, { useLayoutEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import gsap from 'gsap';
 import ParticlesBackground from '../../components/ParticuleBackground/particlessBackground';
-import './Introduction.css'; // Certifique-se de criar este arquivo CSS
+import './Introduction.css';
 
 export default function Introduction() {
 
@@ -13,7 +13,7 @@ export default function Introduction() {
     let ctx = gsap.context(() => {
       const t1 = gsap.timeline({
         onComplete: () => {
-          // navigate('/home');
+          navigate('/home');
         }
       });
       t1.from("#welcome", {
@@ -55,5 +55,6 @@ export default function Introduction() {
         </div>
       </div>
     </>
-  );
+  ); 
 }
+ 

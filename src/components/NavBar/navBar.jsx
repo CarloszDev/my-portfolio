@@ -1,30 +1,54 @@
-import React, { useEffect, useState } from 'react';
-import styles from './navbar.module.css';
+import React, { useState } from 'react';
+import { FaRegUser, FaBook } from "react-icons/fa6";
+import { AiFillHome } from "react-icons/ai";
+import { MdOutlineHomeRepairService, MdEmail } from "react-icons/md";
 
-const Navbar = () => {
-  const [navbarTransparent, setNavbarTransparent] = useState(true);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollTop = window.scrollY || document.documentElement.scrollTop;
-      const isTransparent = scrollTop === 0;
-      setNavbarTransparent(isTransparent);
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+const NavBar = () => {
+  const [activeNav, setActiveNav] = useState('#');
 
   return (
-    <nav className={`${styles.navbar} ${navbarTransparent ? styles.transparent : ''}`}>
-      <h4 className={styles.nameWriter}>Carlos Cauan</h4>
-      <div className={styles.navItems}>
-        <a className={styles.navItem}>Sobre Mim</a>
-        <a className={styles.navItem}>Projetos</a>
-        <a className={styles.navItem}>Contato</a>
-      </div>
+    <nav className="bg-indigo-300 w-max block px-7 py-3 z-2 fixed left-1/2 -translate-x-1/2 bottom-8 flex gap-4 rounded-full backdrop-blur-lg">
+      <a
+        href="#"
+        onClick={() => setActiveNav('#')}
+        className={`text-black text-xl bg-transparent p-3.5 rounded-full flex hover:bg-indigo-500 ${activeNav === '#' ? 'bg-black text-white' : ''}`}
+      >
+        <AiFillHome />
+      </a>
+
+      <a
+        href="#aboutMe"
+        onClick={() => setActiveNav('#aboutMe')}
+        className={`text-black text-xl bg-transparent p-3.5 rounded-full flex hover:bg-indigo-500 ${activeNav === '#aboutMe' ? 'bg-black text-white' : ''}`}
+      >
+        <FaRegUser />
+      </a>
+
+      <a
+        href="#experience"
+        onClick={() => setActiveNav('#experience')}
+        className={`text-black text-xl bg-transparent p-3.5 rounded-full flex hover:bg-indigo-500 ${activeNav === '#experience' ? 'bg-black text-white' : ''}`}
+      >
+        <FaBook />
+      </a>
+
+      <a
+        href="#services"
+        onClick={() => setActiveNav('#services')}
+        className={`text-black text-xl bg-transparent p-3.5 rounded-full flex hover:bg-indigo-500 ${activeNav === '#services' ? 'bg-black text-white' : ''}`}
+      >
+        <MdOutlineHomeRepairService />
+      </a>
+
+      <a
+        href="#contactUs"
+        onClick={() => setActiveNav('#contactUs')}
+        className={`text-black text-xl bg-transparent p-3.5 rounded-full flex hover:bg-indigo-500 ${activeNav === '#contactUs' ? 'bg-black text-white' : ''}`}
+      >
+        <MdEmail />
+      </a>
     </nav>
   );
 };
 
-export default Navbar;
+export default NavBar;
