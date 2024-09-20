@@ -11,7 +11,7 @@ const NavBar = () => {
       <a
         href="#"
         onClick={() => setActiveNav('#')}
-        className={`text-black text-xl bg-transparent p-3.5 rounded-full flex hover:bg-indigo-500 ${activeNav === '#' ? 'bg-black text-white' : ''}`}
+        className={`text-black text-xl bg-transparent p-3.5 rounded-full flex hover:bg-indigo-500 ${activeNav === '#' ? 'bg-indigo-400 text-white' : ''}`}
       >
         <AiFillHome />
       </a>
@@ -19,7 +19,7 @@ const NavBar = () => {
       <a
         href="#aboutMe"
         onClick={() => setActiveNav('#aboutMe')}
-        className={`text-black text-xl bg-transparent p-3.5 rounded-full flex hover:bg-indigo-500 ${activeNav === '#aboutMe' ? 'bg-black text-white' : ''}`}
+        className={`text-black text-xl bg-transparent p-3.5 rounded-full flex hover:bg-indigo-500 ${activeNav === '#aboutMe' ? 'bg-indigo-400 text-white' : ''}`}
       >
         <FaRegUser />
       </a>
@@ -27,7 +27,7 @@ const NavBar = () => {
       <a
         href="#experience"
         onClick={() => setActiveNav('#experience')}
-        className={`text-black text-xl bg-transparent p-3.5 rounded-full flex hover:bg-indigo-500 ${activeNav === '#experience' ? 'bg-black text-white' : ''}`}
+        className={`text-black text-xl bg-transparent p-3.5 rounded-full flex hover:bg-indigo-500 ${activeNav === '#experience' ? 'bg-indigo-400 text-white' : ''}`}
       >
         <FaBook />
       </a>
@@ -35,7 +35,7 @@ const NavBar = () => {
       <a
         href="#services"
         onClick={() => setActiveNav('#services')}
-        className={`text-black text-xl bg-transparent p-3.5 rounded-full flex hover:bg-indigo-500 ${activeNav === '#services' ? 'bg-black text-white' : ''}`}
+        className={`text-black text-xl bg-transparent p-3.5 rounded-full flex hover:bg-indigo-500 ${activeNav === '#services' ? 'bg-indigo-400 text-white' : ''}`}
       >
         <MdOutlineHomeRepairService />
       </a>
@@ -43,7 +43,7 @@ const NavBar = () => {
       <a
         href="#contactUs"
         onClick={() => setActiveNav('#contactUs')}
-        className={`text-black text-xl bg-transparent p-3.5 rounded-full flex hover:bg-indigo-500 ${activeNav === '#contactUs' ? 'bg-black text-white' : ''}`}
+        className={`text-black text-xl bg-transparent p-3.5 rounded-full flex hover:bg-indigo-500 ${activeNav === '#contactUs' ? 'bg-indigo-400 text-white' : ''}`}
       >
         <MdEmail />
       </a>
