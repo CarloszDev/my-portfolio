@@ -9,6 +9,10 @@
     /* text-align: center; */
 }
 
+.about_content{
+    text-align: center; 
+}
+
 .about_me {
     width: 100%;
     aspect-ratio: 1/1;

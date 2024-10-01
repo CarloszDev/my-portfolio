@@ -5,12 +5,12 @@
 :root {
   --color-bg: #000000;
   --color-bg-variant: #474a56;
-  --color-primary-variant: #d3d5fd;
+  --color-primary-variant: #ececec;
   --color-white: #fff;
   --color-light: rgba(255,255,255, 0.6);
   --container-width-lg: 75%;
   --container-width-md: 86%;
-  --container-width-ms: 90%;
+  --container-width-sm: 90%;
   --transition: all 400ms ease;
 }
 
@@ -26,7 +26,7 @@ body {
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-  background-image: url(./assets/nnnoise.svg);
+  background-image: url(./assets/bgN.png);
 }
 
 /* Estilos Gerais */
@@ -42,7 +42,6 @@ h1,h2,h3,h4,h5 {
 
 section {
   margin-top: 8rem;
-  height: 100vh;
 }
 
 section > h2, section > h5 {
@@ -111,7 +110,7 @@ img {
 
 @media screen and (max-width: 600px) {
   .container {
-    width: var(--container-width-ms);
+    width: var(--container-width-sm);
   }
   section {
     margin-bottom: 2rem;

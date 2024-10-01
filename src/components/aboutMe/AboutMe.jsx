@@ -11,6 +11,7 @@ import './aboutMe.css';
 // Lista de tecnologias e suas descrições
 const technologies = [
   { icon: <FaReact />, name: "React", description: "Biblioteca JavaScript para construir interfaces de usuário." },
+  { icon: <FaReact />, name: "React-Native", description: "Biblioteca para construir Apps." },
   { icon: <FaNodeJs />, name: "Node.js", description: "Ambiente de execução JavaScript no servidor." },
   { icon: <SiAngular />, name: "Angular", description: "Framework para construir aplicações web." },
   { icon: <SiNextdotjs />, name: "Next.js", description: "Framework React para produção e renderização no servidor." },
@@ -29,7 +30,7 @@ const AboutMe = () => {
   return (
     <section id='aboutMe'>
       <h2 className='text-4xl'>Sobre Mim</h2>
-      <div className="container about_container font-Poppins">
+      <div className="container items-center about_container font-Poppins">
         <div className="about_me">
           <div className="aboutMe-icons">
             <Swiper
@@ -74,9 +75,9 @@ const AboutMe = () => {
             </article>
           </div>
 
-          <p className='font-Poppins'>{MeText}</p>
+          <p className='font-Poppins text-left'>{MeText}</p>
 
-          <a href="#contact" className='btn btn-primary font-Poppins'>Vamos conversar</a>
+          <btn href="#contact" className='btn btn-primary font-Poppins'>Vamos conversar</btn>
         </div>
       </div>
     </section>

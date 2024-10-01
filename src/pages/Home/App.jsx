@@ -4,7 +4,6 @@ import Header from '../../components/Header/Header.jsx';
 import NavBar from '../../components/navBar/navBar.jsx';
 import AboutMe from '../../components/AboutMe/AboutMe.jsx';
 import Experience from '../../components/Experiences/Experience.jsx';
-import Services from '../../components/services/Services.jsx';
 import Projects from '../../components/projects/Projects.jsx';
 import ContactUs from '../../components/contactUs/ContactUs.jsx';
 import Footer from '../../components/footer/Footer.jsx';
@@ -16,7 +15,6 @@ function App() {
       <NavBar />
       <AboutMe />
       <Experience />
-      <Services />
       <Projects />
       <ContactUs />
       <Footer />

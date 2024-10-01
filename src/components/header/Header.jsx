@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import CV from './Cta';
 import MyPhoto from '../../assets/eu2.png';
 import Socials from './Socials';
-import { TbArrowBigDownLinesFilled } from "react-icons/tb";
+import { MdLightMode } from "react-icons/md";;
 import { PiArrowFatLinesRightFill } from "react-icons/pi";
 
 const Header = () => {
@@ -21,9 +21,9 @@ const Header = () => {
           <img src={MyPhoto} alt="Carlos Cauan"/>
         </div>
         {bounce ? 
-        <a href="#contactUs" onMouseLeave={() =>setBounce(false)} className='absolute -right-9 bottom-20 rotate-90 text-4xl font-extralight tablet:hidden animate-bounce'>< TbArrowBigDownLinesFilled /></a>
+        <a href="#contactUs" onMouseLeave={() =>setBounce(false)} className='absolute -right-9 bottom-20 rotate-90 text-4xl font-extralight tablet:hidden animate-bounce'>< MdLightMode /></a>
           :
-          <a href="#contactUs" onMouseEnter={() => setBounce(true)} className='absolute -right-9 bottom-20 rotate-90 text-4xl font-extralight tablet:hidden'>< PiArrowFatLinesRightFill /></a>
+          <a href="#contactUs" onMouseEnter={() => setBounce(true)} className='absolute -right-9 bottom-20 rotate-90 text-4xl font-extralight tablet:hidden'>< MdLightMode /></a>
         }
       </div>
     </header>

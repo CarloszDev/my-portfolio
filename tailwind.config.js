@@ -20,7 +20,7 @@ export default {
 
             backgroundImage: {
               'Background-star': "url('./assets/image.png')",
-              'gradient': "url('./assets/gradientBG.png')",
+              'gradient': "url('./assets/meBg.png')",
             },
 
             screens: {
