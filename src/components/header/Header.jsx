@@ -20,11 +20,11 @@ const Header = () => {
         <div className="bg-gradient w-96 h-96 absolute left-1/2 -ml-48 m-12 rounded-full overflow-hidden">
           <img src={MyPhoto} alt="Carlos Cauan"/>
         </div>
-        {bounce ? 
+        {/* {bounce ? 
         <a href="#contactUs" onMouseLeave={() =>setBounce(false)} className='absolute -right-9 bottom-20 rotate-90 text-4xl font-extralight tablet:hidden animate-bounce'>< MdLightMode /></a>
           :
           <a href="#contactUs" onMouseEnter={() => setBounce(true)} className='absolute -right-9 bottom-20 rotate-90 text-4xl font-extralight tablet:hidden'>< MdLightMode /></a>
-        }
+        } */}
       </div>
     </header>
   )
