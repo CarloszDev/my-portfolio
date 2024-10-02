@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import Header from '../../components/Header/Header.jsx';
-import NavBar from '../../components/NavBar/NavBar.jsx';
-import AboutMe from '../../components/AboutMe/AboutMe.jsx';
-import Experience from '../../components/Experiences/Experience.jsx';
+import Header from '../../components/header/Header.jsx';
+import NavBar from '../../components/navBar/Nav.jsx';
+import AboutMe from '../../components/aboutMe/AboutMe.jsx';
+import Experience from '../../components/experiences/Experience.jsx';
 import Projects from '../../components/projects/Projects.jsx';
 import ContactUs from '../../components/contactUs/ContactUs.jsx';
 import Footer from '../../components/footer/Footer.jsx';
