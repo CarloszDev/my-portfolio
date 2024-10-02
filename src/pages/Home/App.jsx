@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Header from '../../components/Header/Header.jsx';
+import Header from '../../components/header/Header.jsx';
 import NavBar from '../../components/navBar/navBar.jsx';
 import AboutMe from '../../components/AboutMe/AboutMe.jsx';
 import Experience from '../../components/Experiences/Experience.jsx';
