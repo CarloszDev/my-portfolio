@@ -113,6 +113,9 @@
         grid-template-columns: 1fr;
         gap: 1rem;
     }
+    .portfolio_description p {
+        font-size: 0.72rem;
+    }
 }
 
 @media screen and (max-width: 1024px) {

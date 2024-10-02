@@ -1,9 +1,14 @@
-import React from 'react'
-
+import React from 'react';
+import { FaInstagramSquare } from "react-icons/fa";
+import './footer.css';
 const Footer = () => {
   return (
-    <section id='Footer'>Footer</section>
-  )
-}
+    <footer>
+      <div className='text-center text-white'>
+        <p>&copy; 2024 Direitos reservados a Carlos Cauan</p>
+      </div>
+    </footer>
+  );
+};
 
 export default Footer;

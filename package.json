@@ -13,6 +13,7 @@
     "@react-spring/web": "^9.7.3",
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.5.0",
+    "emailjs-com": "^3.2.0",
     "gsap": "^3.12.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
