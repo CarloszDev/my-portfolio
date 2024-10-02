@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import ParticlesBackground from '../../components/ParticuleBackground/particlessBackground.jsx';
 import Header from '../../components/Header/Header.jsx';
 import NavBar from '../../components/navBar/navBar.jsx';
 import AboutMe from '../../components/AboutMe/AboutMe.jsx';
