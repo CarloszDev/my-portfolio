@@ -35,17 +35,25 @@ const AboutMe = () => {
           <div className="aboutMe-icons">
             <Swiper
               spaceBetween={30}
-              slidesPerView={3}
               centeredSlides={true}
               grabCursor={true}
+              autoplay={true}
               loop={true}
               slideToClickedSlide={true}
+              breakpoints={{
+                600: {
+                  slidesPerView: 2, // Mostra 1 slide quando a tela é <= 600px
+                },
+                601: {
+                  slidesPerView: 3, // Mostra 3 slides quando a tela é > 600px
+                },
+              }}
             >
               {technologies.map((tech, index) => (
                 <SwiperSlide key={index} className="swiper-slide">
                   <div className="icon-container">
-                    <div className="icon text-6xl m-10">{tech.icon}</div>
-                    <h4 className="text-lg font-semibold font-Poppins">{tech.name}</h4>
+                    <div className="icon text-6xl mt-20 tablet:text-5xl">{tech.icon}</div>
+                    <h4 className="text-lg font-semibold font-Poppins tablet:text-5xl">{tech.name}</h4>
                     <p className="text-sm text-gray-500 font-Poppins">{tech.description}</p>
                   </div>
                 </SwiperSlide>
@@ -77,7 +85,7 @@ const AboutMe = () => {
 
           <p className='font-Poppins text-left'>{MeText}</p>
 
-          <btn href="#contact" className='btn btn-primary font-Poppins'>Vamos conversar</btn>
+          <a href="#contact" className='btn btn-primary font-Poppins'>Vamos conversar</a>
         </div>
       </div>
     </section>

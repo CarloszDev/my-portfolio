@@ -81,20 +81,24 @@
 }
 
 .icon-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
     text-align: center;
-    width: 100%; /* Garante que o container ocupe o espaço disponível */
 }
 
 .icon {
     font-size: 4rem;
     margin-bottom: 10px;
-    color: var(---color-primary-variant); /* Cor dos ícones */
+    color: var(---color-primary-variant);
 }
 
 .icon-container h4 {
     margin-top: 10px;
     font-size: 1.2rem;
-    color: var(--color-primary); /* Cor do nome da tecnologia */
+    color: var(--color-primary);
 }
 
 .icon-container p {
@@ -173,3 +177,23 @@
             margin-left: -4.8rem;
         }
     }
+
+    @media screen and (max-width: 500px) {
+         /* .aboutMe-icons {
+            margin-left: -6.3rem;
+        }
+        
+        .icon-container {
+            width: 100%; 
+        } */
+
+        .aboutMe-icons {
+            display: flex;
+            width: 10rem;
+            margin-left: 1rem;
+            height: 20rem;
+            justify-content: flex-end;
+            align-items: flex-start;
+        }
+        
+      }
