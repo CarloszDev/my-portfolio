@@ -47,6 +47,32 @@ input, textarea{
     color: #fff;
 }
 
+.flash-message {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: white;
+    color: #4BB543;
+    padding: 15px 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .flash-message .icon {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: -10px;
+  }
+  
+
 /* Media queries */
   
 @media screen and (max-width: 600px) {
