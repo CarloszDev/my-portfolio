@@ -41,7 +41,7 @@ const Projects = () => {
       <h5>Trabalhos & Participações</h5>
       <h2 className='text-2xl'>Portfolio</h2>
 
-      <div className="container portfolio_container font-Poppins">
+      <div className="container portfolio_container tablet:col-1[1] font-Poppins">
         {projectsData.map((project) => (
           <article 
             key={project.id}
