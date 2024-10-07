@@ -17,7 +17,7 @@ const Header = () => {
         <h5 className="text-light">Desenvolvedor FullStack</h5>
         <CV />
         <Socials />
-        <div className="bg-gradient w-96 h-96 absolute left-1/2 -ml-48 m-12 rounded-full overflow-hidden">
+        <div className="bg-gradient w-96 h-96 absolute left-1/2 -ml-48 m-12 rounded-full overflow-hidden small_device-img">
           <img src={MyPhoto} alt="Carlos Cauan"/>
         </div>
         {/* {bounce ? 

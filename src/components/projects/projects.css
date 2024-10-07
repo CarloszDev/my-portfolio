@@ -108,6 +108,13 @@
     
 }
 
+@media screen and (max-width: 1024px) {
+    .portfolio_container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .portfolio_container {
         grid-template-columns: 1fr;
@@ -115,12 +122,5 @@
     }
     .portfolio_description p {
         font-size: 0.72rem;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .portfolio_container {
-        grid-template-columns: 1fr 1fr;
-        gap: 1.2rem;
     }
 }
