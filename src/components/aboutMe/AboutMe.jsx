@@ -85,7 +85,7 @@ const AboutMe = () => {
 
           <p className='font-Poppins text-left'>{MeText}</p>
 
-          <a href="#contactUS" className='btn btn-primary font-Poppins'>Vamos conversar</a>
+          <a href="#contactUs" className='btn btn-primary font-Poppins'>Vamos conversar</a>
         </div>
       </div>
     </section>
