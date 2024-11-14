@@ -42,10 +42,10 @@ const AboutMe = () => {
               slideToClickedSlide={true}
               breakpoints={{
                 600: {
-                  slidesPerView: 2, // Mostra 1 slide quando a tela é <= 600px
+                  slidesPerView: 2,
                 },
                 601: {
-                  slidesPerView: 3, // Mostra 3 slides quando a tela é > 600px
+                  slidesPerView: 3,
                 },
               }}
             >
@@ -85,7 +85,7 @@ const AboutMe = () => {
 
           <p className='font-Poppins text-left'>{MeText}</p>
 
-          <a href="#contact" className='btn btn-primary font-Poppins'>Vamos conversar</a>
+          <a href="#contactUS" className='btn btn-primary font-Poppins'>Vamos conversar</a>
         </div>
       </div>
     </section>
